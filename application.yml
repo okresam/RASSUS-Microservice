@@ -1,4 +1,4 @@
-tempUnit: "K"
+tempUnit: "C"
 eureka:
     client:
         service-url:
