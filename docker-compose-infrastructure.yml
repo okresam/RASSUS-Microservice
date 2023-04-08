@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  config:
+    image: config-server-microservice-df:0.0.1-SNAPSHOT
+    ports:
+      - "8888:8888"
+
+  eureka:
+    image: eureka-server-df:0.0.1-SNAPSHOT
+    ports:
+      - "8761:8761"
+    
